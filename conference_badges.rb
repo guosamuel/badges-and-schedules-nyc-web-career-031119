@@ -20,6 +20,6 @@ def assign_rooms(array_of_names)
   return room_assignments
 end
 
-def printer
-  puts batch_badge_creator.concat(assign_rooms)
+def printer(array_of_names)
+  
 end
