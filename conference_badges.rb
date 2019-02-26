@@ -21,5 +21,5 @@ def assign_rooms(array_of_names)
 end
 
 def printer
-  puts batch_badge_create.concat(assign_rooms)
+  puts batch_badge_creator.concat(assign_rooms)
 end
