@@ -21,5 +21,8 @@ def assign_rooms(array_of_names)
 end
 
 def printer(array_of_names)
-  puts batch_badge_creator(array_of_names).concat(assign_rooms(array_of_names))
+  to_print = batch_badge_creator(array_of_names).concat(assign_rooms(array_of_names))
+  to_print.each do |line|
+    puts line
+  end
 end
