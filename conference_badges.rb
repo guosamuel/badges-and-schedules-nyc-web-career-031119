@@ -14,9 +14,10 @@ end
 
 def assign_rooms(array_of_names)
   room_assignments = []
-  array_of_names.each_with_index { |item, index|
+  array_of_names.each_with_index do |item, index|
     room_assignments.push("Hello, #{item}! You'll be assigned to room #{index+1}!"
-  }    
+  end   
+  return room_assignments
 end
 
 def printer
